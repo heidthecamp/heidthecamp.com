@@ -1,0 +1,15 @@
+#Ignore node files
+/themes/heidthecamp/node_modules/
+
+#Ignore css files, they will be compiled with sass
+*.css
+
+#Ignore any bak files
+*.bak
+
+#Ignore any scss cache files
+*.sass-cache
+*.scss-cache
+
+#Ignore auto generated files in public
+/public/
