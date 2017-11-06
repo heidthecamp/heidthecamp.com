@@ -1,0 +1,15 @@
+
+<div class="mobileMenuWrap hidden-sm js-mobileMenuWrap">
+    {{ range $menuItem := .Site.Params.menu }}
+        <a class="mobileMenuItem" href="{{ index $menuItem 0 }}">{{ index $menuItem 1 }}</a>
+    {{ end }}
+</div>
+<div class="title"><a href="{{ .Site.BaseURL }}">heidthecamp</a></div>
+
+<nav class="navbar headerMenu">
+    <div class="headerMenu__items">
+        {{ range $menuItem := .Site.Params.menu }}
+            <a href="{{ index $menuItem 0 }}">{{ index $menuItem 1 }}</a>
+        {{ end }}
+    </div>
+</nav>

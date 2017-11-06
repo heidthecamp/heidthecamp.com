@@ -1,4 +1,10 @@
 baseurl = "http://www.heidthecamp.com"
 title = "heidthecamp"
 languageCode = "en-us"
-theme = "ananke"
+theme = "heidthecamp"
+
+[params]
+  menu = [
+    ["/post/", "/post"],
+    ["/test/", "/test"]
+  ]

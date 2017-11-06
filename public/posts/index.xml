@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on heidthecamp</title>
+    <link>http://www.heidthecamp.com/posts/</link>
+    <description>Recent content in Posts on heidthecamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2016 02:24:57 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.heidthecamp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>resume</title>
+      <link>http://www.heidthecamp.com/posts/resume/</link>
+      <pubDate>Fri, 01 Jan 2016 02:24:57 -0500</pubDate>
+      
+      <guid>http://www.heidthecamp.com/posts/resume/</guid>
+      <description>Timothy Heidcamp 1 Olde Orchard Park Apt136 | South Burlington, VT 05403 | Cell : (845) 532-9388 | heidthecamp@gmail.com
+Summary I&amp;rsquo;m currently a senior at Champlain College&amp;rsquo;s Computer Science and Innovation (CSI) program with a love for learning new programming languages and design patterns. Outside of courses, I&amp;rsquo;ve developed several small home programming projects as well as participating in Vermont&amp;rsquo;s civic hackathon, HackVT, competition 3 years in a row.</description>
+    </item>
+    
+  </channel>
+</rss>
