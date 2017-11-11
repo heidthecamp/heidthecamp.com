@@ -8,8 +8,8 @@ gulp.task('default', ['sass'], function(){
 
 gulp.task('sass', function() {
   return gulp.src('./scss/**/*.scss')
-    .pipe(sass().on('error', sass.logError)
-    .pipe(gulp.dest('./static/css')))
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./static/css'))
 });
 
 gulp.task('sass:watch', function (){
