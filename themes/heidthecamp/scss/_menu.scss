@@ -1,0 +1,18 @@
+@@import "_mixin.scss";
+$titleSize: 20px;
+$buttonRadius: 5px;
+$buttonColor: #fff;
+$buttonTextColor: #7E7;
+$buttonPadding: 10px 15px;
+
+/*
+$button{
+  background-color: #312;
+  border-color: $buttonColor;
+  padding: $buttonPadding;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  @include border-radius($buttonRadius);
+}
+*/

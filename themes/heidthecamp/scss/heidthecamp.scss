@@ -1,8 +1,58 @@
+@import "_mixin.scss";
+
+$titleSize: 20px;
+$buttonRadius: 5px;
+$buttonColor: #fff;
+$buttonTextColor: #7E7;
+$buttonPadding: 10px 15px;
+
 body {
-  background-color: #323;
-  color: #7E7;
+  background-color: #434;
+  color: #9C9;
 }
 
 .header {
-  color: #9C9;
+  color: #7E7;
+}
+
+a {
+  color: #7E7;
+}
+a:hover{
+  color: #CFC;
+}
+
+.button{
+  background-color: #312;
+  border-color: #9D9;
+  display: inline;
+  &:hover { background-color: #213; }
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  @include border-radius(5px);
+}
+
+.menuBar{
+  padding: 20px 10px 5px 10px;
+  background-color: #212;
+
+  a {
+    color: #7E7;
+  }
+  a:hover {
+    color: #CFC;
+  }
+
+  ul{
+    text-align: center;
+    //align-items: center;
+  }
+  li{
+    display: inline;
+  }
+
+  .title{
+    font-size: $titleSize;
+  }
 }

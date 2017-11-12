@@ -1,10 +1,14 @@
-
-<div class="title"><a href="{{ .Site.BaseURL }}">heidthecamp</a></div>
-
+<div class="menuBar">
+<div class="title"><a class="button" href="{{ .Site.BaseURL }}">heidthecamp</a></div>
 <nav class="navbar headerMenu hidden-xs">
   <div class="headerMenu__items">
-    {{ range $menuItem := .Site.Params.menu }}
-      <a href="{{ index $menuItem 0 }}">{{ index $menuItem 1 }}</a>
+    {{ if .Site.Params.menu }}
+    <ul>
+      {{ range $menuItem := .Site.Params.menu }}
+        <li><a href="{{ index $menuItem 0 }}" class="button">{{ index $menuItem 1 }}</a></li>
+      {{ end }}
+    </ul>
     {{ end }}
   </div>
 </nav>
+</div>
