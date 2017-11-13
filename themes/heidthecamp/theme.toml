@@ -19,10 +19,3 @@ min_version = 0.17
   name = ""
   homepage = ""
   repo = ""
-
-[Params]
-  Menu = [
-    ["/post/", ">post"],
-    ["/test/", ">test"],
-    ["/projects/", ">projects"]
-  ]

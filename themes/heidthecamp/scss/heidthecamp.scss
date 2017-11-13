@@ -5,13 +5,40 @@ $buttonRadius: 5px;
 $buttonColor: #fff;
 $buttonTextColor: #7E7;
 $buttonPadding: 10px 15px;
+$menuColor: #212;
+
+html,
+body {
+  padding: 0;
+  height: 100%;
+}
 
 body {
   background-color: #434;
   color: #9C9;
 }
 
+body::before{
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+footer {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  left:0;
+  padding: 10px 10px 10px 10px;
+  background-color: $menuColor;
+}
+
 .header {
+  padding: 0;
+  height: 100%;
   color: #7E7;
 }
 
@@ -33,9 +60,30 @@ a:hover{
   @include border-radius(5px);
 }
 
-.menuBar{
-  padding: 20px 10px 5px 10px;
+#content{
+  float:  right;
+  padding: 10px 5px 20px 5px;
+  overflow: auto;
+}
+
+#menuWrap{
+  height: 100%;
   background-color: #212;
+  float: left;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menuBar{
+  //float: left;
+  background-color: $menuColor;
+  display: block;
+  height: 100%;
+  padding: 20px 10px;
 
   a {
     color: #7E7;
@@ -45,14 +93,25 @@ a:hover{
   }
 
   ul{
-    text-align: center;
+    //text-align: center;
     //align-items: center;
   }
   li{
-    display: inline;
+    //display: inline;
+    text-align: left;
+    list-style-type: none;
+    margin: 20px 0px;
+    .button{
+    }
   }
 
   .title{
     font-size: $titleSize;
   }
+}
+
+
+#wrap {
+  min-height: 100%;
+  padding: 0px;
 }
