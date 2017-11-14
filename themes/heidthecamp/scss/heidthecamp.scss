@@ -10,8 +10,10 @@ $menuColor: #212;
 $textColor: #9C9;
 $footerHeight: 40px;
 
+
 html,
 body {
+  font-family: Helvetica, sans-serif;
   height: 100%;
 }
 
@@ -58,8 +60,8 @@ a:hover{
 
 #content{
   float:  left;
-  padding-left: $menubarWidth + 20px;
-  padding-bottom: $footerHeight;
+  padding-left: $menubarWidth + 30px;
+  padding-bottom: $footerHeight + 20px;
   overflow: auto;
 }
 
@@ -73,6 +75,16 @@ a:hover{
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.homePage{
+  ul{
+    padding: 0px;
+  }
+  li{
+    padding: 0px 20px;
+    list-style-type: none;
+  }
 }
 
 .menuBar{

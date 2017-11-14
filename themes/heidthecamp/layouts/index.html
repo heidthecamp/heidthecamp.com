@@ -3,23 +3,21 @@
 <!-- Add after Menu Bar is created  -->
 {{partial "menuBar.html" .}}
 
-<div>
-> Posts
-{{ range where .Data.Pages "Section" "posts" }}
-<ul>
-  <li><a href="{{ .Permalink }}">> {{ .Title }}</a></li>
-</ul>
-{{ end }}
+<div class="homePage">
+
+  {{ range .Data.Pages.GroupBy "Section" }}
+  <h3>> {{ .Key }}</h3>
+  <ul>
+      {{ range .Pages }}
+      <li>
+      <a href="{{ .Permalink }}">> {{ .Title }}</a>
+      </li>
+      {{ end }}
+  </ul>
+  {{ end }}
+
 </div>
 
-<div>
-> Projects
-{{ range where .Data.Pages "Section" "projects" }}
-<ul>
-    <li><a href="{{ .Permalink }}">> {{ .Title }}</a></div></li>
-</ul>
-{{ end }}
-</div>
 
 
 {{partial "footer.html" .}}
