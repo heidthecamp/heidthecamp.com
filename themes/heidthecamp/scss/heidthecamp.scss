@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  background-color: #555;
+  background-color: $menuBcakgroundColor + #222;
   color: $textColor;
 }
 
@@ -31,7 +31,7 @@ footer {
   bottom: 0px;
   left:0;
   padding: 10px 10px 10px 10px;
-  background-color: $menuBackgroundColor;
+  background-color: $menuBcakgroundColor;
 }
 
 .header {
@@ -89,7 +89,7 @@ a:hover{
 
 .menuBar{
   //float: left;
-  background-color: $menuBackgroundColor;
+  background-color: $menuBcakgroundColor;
   display: block;
   width: $menubarWidth;
   height: 100%;
