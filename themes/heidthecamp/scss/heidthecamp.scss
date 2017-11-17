@@ -6,7 +6,8 @@ $buttonColor: #fff;
 $buttonTextColor: #7E7;
 $buttonPadding: 10px 15px;
 $menubarWidth: 150px;
-$menuColor: #212;
+$menuBcakgroundColor: #333;
+$
 $textColor: #9C9;
 $footerHeight: 40px;
 
@@ -18,7 +19,7 @@ body {
 }
 
 body {
-  background-color: #434;
+  background-color: $menuColor + #222;
   color: $textColor;
 }
 
@@ -31,7 +32,7 @@ footer {
   bottom: 0px;
   left:0;
   padding: 10px 10px 10px 10px;
-  background-color: $menuColor;
+  background-color: $menuBackgroundColor;
 }
 
 .header {
@@ -89,7 +90,7 @@ a:hover{
 
 .menuBar{
   //float: left;
-  background-color: $menuColor;
+  background-color: $menuBackgroundColor;
   display: block;
   width: $menubarWidth;
   height: 100%;
