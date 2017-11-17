@@ -6,11 +6,15 @@ $buttonColor: #fff;
 $buttonTextColor: #7E7;
 $buttonPadding: 10px 15px;
 $menubarWidth: 150px;
-$menuBcakgroundColor: #333;
+$baseBackgroundColor: #555;
+$menuBackgroundColor: $baseBackgroundColor - #222;
+$menuButtonBackgroundColor: $menuBackgroundColor - #222;
+$menuButtonHoverBackgroundColor: $menuButtonBackgroundColor + #111;
+
 $textColor: #9C9;
 $footerHeight: 40px;
 
-
+s
 html,
 body {
   font-family: Helvetica, sans-serif;
@@ -18,7 +22,7 @@ body {
 }
 
 body {
-  background-color: $menuBcakgroundColor + #222;
+  background-color: $baseBackgroundColor;
   color: $textColor;
 }
 
@@ -31,7 +35,7 @@ footer {
   bottom: 0px;
   left:0;
   padding: 10px 10px 10px 10px;
-  background-color: $menuBcakgroundColor;
+  background-color: $menuBackgroundColor;
 }
 
 .header {
@@ -48,10 +52,9 @@ a:hover{
 }
 
 .button{
-  background-color: #312;
-  border-color: #9D9;
+  background-color: $menuBackgroundColor - #222;
   display: inline;
-  &:hover { background-color: #213; }
+  &:hover { background-color: $menuBackgroundColor + #111; }
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -89,7 +92,7 @@ a:hover{
 
 .menuBar{
   //float: left;
-  background-color: $menuBcakgroundColor;
+  background-color: $menuBackgroundColor;
   display: block;
   width: $menubarWidth;
   height: 100%;
