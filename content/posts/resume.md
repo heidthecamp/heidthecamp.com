@@ -1,18 +1,18 @@
 +++
-date = "2016-01-01T02:24:57-05:00"
+date = "2017-11-17T02:24:57-05:00"
 draft = false
-title = "resume"
+title = "résumé
 
 +++
 
-# Timothy Heidcamp
+## Timothy Heidcamp
 
 *1 Olde Orchard Park Apt136 |  South Burlington, VT 05403 |  Cell : (845) 532-9388 |  heidthecamp@gmail.com*
 
-## Summary
-I'm currently a senior at Champlain College's Computer Science and Innovation (CSI) program with a love for learning new programming languages and design patterns. Outside of courses, I've developed several small home programming projects as well as participating in Vermont's civic hackathon, HackVT, competition 3 years in a row.
+### Summary
+I am an Operation Support Engineer at Vistaprint where I work with Product Specialist ensure that product launches go smooth and fix prod incidence when they don't. As an OSE I need to be familiar with a wide selection of tools, processes, and troubleshooting techniques. I am always eager to add to the list of tools and skills I have at my disposal to solve challenges. I spend much of what little free time I have working on projects ranging from building my personal website to physical/digital projects with Raspberry Pis and Arduinos such as an aquaponic system that controls the lights and pumps to help encourage a healthy system. I am looking for an environment where I can continue to grow as a developer and where I can solve interesting challenges everyday with other smart-driven people.
 
-## Skills & Expertise
+### Skills & Expertise
 **Highly Experienced:**  
 &nbsp;&nbsp;&nbsp;&nbsp;C/C++, Java, C#, Markdown
 
@@ -22,7 +22,7 @@ I'm currently a senior at Champlain College's Computer Science and Innovation (C
 **Operating Systems:**  
 &nbsp;&nbsp;&nbsp;&nbsp;Linux (Ubuntu & Fedora), Windows 7 or greater
 
-## Education
+### Education
 **Champlain College** - *Burlington, VT*   
 Bachelor of Science -- Computer Science and Innovation, *Expected Graduation: May 2016*  
 &nbsp;&nbsp;&nbsp;&nbsp; HackVT participant, 2013, 2014, and 2015
@@ -35,7 +35,7 @@ Undeclared, attended August 2011 - December 2011
 Associate of Science -- Music, attended August 2009 - May 2011  
 &nbsp;&nbsp;&nbsp;&nbsp; Member, MISU Community Orchestra
 
-## Work Experience
+### Work Experience
 **Vistaprint** - Waltham, MA  
 *Operational Support Engineer*: May 2016 - Present  
 &nbsp;&nbsp;&nbsp;&nbsp; SQL, git, JSON, Javascript, Troubleshooting, Reading Error Messages, Problem Solving, Time Management, Communication, Proprietary Tools  
