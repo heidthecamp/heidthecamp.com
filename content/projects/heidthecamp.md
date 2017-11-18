@@ -1,6 +1,6 @@
 +++
 title = "heidthecamp"
-date = "2017/11/12"
+date = "2017-11-17"
 tags = []
 draft = false
 description = "The page outlining my progress on my website."
