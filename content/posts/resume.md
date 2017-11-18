@@ -24,7 +24,7 @@ I am an Operation Support Engineer at Vistaprint where I work with Product Speci
 
 ### Education
 **Champlain College** - *Burlington, VT*   
-Bachelor of Science -- Computer Science and Innovation, *Expected Graduation: May 2016*  
+Bachelor of Science -- Computer Science and Innovation, July 2012 - May 2016  
 &nbsp;&nbsp;&nbsp;&nbsp; HackVT participant, 2013, 2014, and 2015
 
 **SUNY Potsdam** - *Potsdam, NY*   
