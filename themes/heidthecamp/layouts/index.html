@@ -5,6 +5,8 @@
 
 <div class="homePage">
 
+  <h1 class="pageTitle"><a href="{{ .Permalink }}">{{ .Title }}<div class="cursor">&#x25Ae;</div></a></h1>
+
   {{ range .Data.Pages.GroupBy "Section" }}
   <h3>> {{ .Key }}</h3>
   <ul>

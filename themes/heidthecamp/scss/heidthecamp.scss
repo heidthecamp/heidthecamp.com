@@ -14,7 +14,7 @@ $menuButtonHoverBackgroundColor: $menuButtonBackgroundColor + #111;
 $textColor: #9C9;
 $footerHeight: 40px;
 
-s
+
 html,
 body {
   font-family: Helvetica, sans-serif;
@@ -70,7 +70,6 @@ a:hover{
 
 #menuWrap{
   height: 100%;
-  background-color: #212;
   float: left;
 }
 
@@ -121,6 +120,19 @@ a:hover{
   }
 }
 
+.pageTitle{
+  text-decoration: none;
+  a{
+    text-decoration: none;
+  }
+}
+
+.cursor{
+  transition: color 200ms ease;
+  display: inline;
+}
+
+.blink { color: transparent; }
 
 #wrap {
   min-height: 100%;

@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
 {{ partial "menuBar.html" . }}
-  <h1 class="pageTitle"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <h1 class="pageTitle"><a href="{{ .Permalink }}">{{ .Title }}<div class="cursor">&#x25Ae;</div></a></h1>
   {{ .Content }}
 {{ partial "footer" . }}
