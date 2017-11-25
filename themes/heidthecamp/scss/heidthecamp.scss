@@ -14,10 +14,15 @@ $menuButtonHoverBackgroundColor: $menuButtonBackgroundColor + #111;
 $textColor: #9C9;
 $footerHeight: 40px;
 
+@font-face {
+  font-family: 'VeraMono';
+  src: url('../fonts/bitstream/VeraMono.ttf') format('truetype');
+}
 
 html,
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'VeraMono';
+  //src: url(./resources/fonts/bitstream/VeraMono.ttf);
   height: 100%;
 }
 
@@ -36,6 +41,13 @@ footer {
   left:0;
   padding: 10px 10px 10px 10px;
   background-color: $menuBackgroundColor;
+}
+
+
+li {
+  a{
+    text-decoration: none;
+  }
 }
 
 .header {
