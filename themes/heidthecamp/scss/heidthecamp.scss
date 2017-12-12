@@ -67,7 +67,7 @@ a:hover{
   background-color: $menuBackgroundColor - #222;
   display: inline;
   &:hover { background-color: $menuBackgroundColor + #111; }
-  padding: 10px 15px;
+  padding: 8px 10px;
   text-align: center;
   text-decoration: none;
   @include border-radius(5px);
