@@ -1,155 +1,84 @@
 @import "_mixin.scss";
 
-$titleSize: 20px;
-$buttonRadius: 5px;
-$buttonColor: #fff;
-$buttonTextColor: #7E7;
-$buttonPadding: 10px 15px;
-$menubarWidth: 150px;
-$baseBackgroundColor: #555;
-$menuBackgroundColor: $baseBackgroundColor - #222;
-$menuButtonBackgroundColor: $menuBackgroundColor - #222;
-$menuButtonHoverBackgroundColor: $menuButtonBackgroundColor + #111;
-
-$textColor: #9C9;
-$footerHeight: 40px;
+$background: #2C3333;
+$navBarBackground: #506750;
+$titleBackground: #6A8A7A;
+$navBarHoverBackground: #B2BB99;
+$contentBackground: #DCD6C9;
+$contentText: #2C3333;
 
 @font-face {
-  font-family: 'VeraMono';
-  src: url('../fonts/bitstream/VeraMono.ttf') format('truetype');
+  font-family: 'SourceCodePro';
+  src: url('../fonts/SCP/SourceCodePro-Regular.ttf') format('truetype');
 }
 
 html,
 body {
-  font-family: 'VeraMono', monospace, sans-serif;
+  font-family: 'SourceCodePro', monospace, sans-serif;
   //src: url(./resources/fonts/bitstream/VeraMono.ttf);
-  height: 100%;
+  height: 90%;
 }
 
 body {
-  background-color: $baseBackgroundColor;
-  color: $textColor;
+  background-color: $background;
 }
 
-
+.page {
+  margin: 0 auto;
+  background-color: $contentBackground;
+  color: $contentText;
+  width: 80%;
+}
+header {
+  padding: 0px;
+  color: #FFF;
+  background-color: $titleBackground;
+}
+header a {
+  color: #FFF;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header h1 {
+  padding: 20px 20px 0px 20px;
+}
+header .title {
+  font-size: 30px;
+  padding: 5px 10px;
+}
+nav {
+  margin: 0px;
+  padding: 0px;
+  color: #FFF;
+  background-color: $navBarBackground;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 0px;
+}
+nav li {
+  display: inline;
+  width: 60px;
+  padding: 10px;
+}
+nav li:hover {
+  background-color: $navBarHoverBackground;
+}
+.content {
+  min-height: 900px;
+  padding: 20px;
+}
 footer {
-  text-align: center;
-  position: fixed;
-  height: 40px;
-  width: 100%;
-  bottom: 0px;
-  left:0;
-  padding: 10px 10px 10px 10px;
-  background-color: $menuBackgroundColor;
+  padding: 5px 10px 1px 20px ;
+  align-self: center;
 }
-
-
-li {
-  a{
-    text-decoration: none;
-  }
-}
-
-.header {
-  padding: 0;
-  height: 100%;
-  color: #7E7;
-}
-
-a {
-  color: #7E7;
-}
-a:hover{
-  color: #CFC;
-}
-
-.button{
-  background-color: $menuBackgroundColor - #222;
-  display: inline;
-  &:hover { background-color: $menuBackgroundColor + #111; }
-  padding: 8px 10px;
-  text-align: center;
-  text-decoration: none;
-  @include border-radius(5px);
-}
-
-#content{
-  float:  left;
-  padding-left: $menubarWidth + 30px;
-  padding-bottom: $footerHeight + 20px;
-  overflow: auto;
-}
-
-#menuWrap{
-  height: 100%;
-  float: left;
-}
-
-.sticky{
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.homePage{
-  ul{
-    padding: 0px;
-  }
-  li{
-    padding: 0px 20px;
-    list-style-type: none;
-  }
-}
-
-.menuBar{
-  //float: left;
-  background-color: $menuBackgroundColor;
-  display: block;
-  width: $menubarWidth;
-  height: 100%;
-  padding: 20px 10px;
-
-  a {
-    color: #7E7;
-  }
-  a:hover {
-    color: #CFC;
-  }
-
-  ul{
-    text-align: center;
-    //align-items: center;
-  }
-  li{
-    //display: inline;
-    text-align: left;
-    list-style-type: none;
-    margin: 20px 0px;
-  }
-
-  .title{
-    font-size: $titleSize;
-  }
-}
-
-.pageTitle{
-  text-decoration: none;
-  a{
-    text-decoration: none;
-  }
-}
-
-.cursor{
-  font-size: 50px;
-  font-family: arial;
-  transition: color 200ms ease;
+footer ul {
   display: inline;
 }
-
-.blink { color: transparent; }
-
-#wrap {
-  min-height: 100%;
-  //padding-left: $menubarWidth;
-  //padding-bottom: $footerHeight;
+footer li {
+  text-decoration: none;
+  display: inline;
 }

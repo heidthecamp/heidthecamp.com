@@ -19,3 +19,19 @@
   </script>
 </head>
 <body lang="en">
+  <div class="page">
+  <header>
+    <div class="title"><a href="{{ .Site.BaseURL }}">heidthecamp</a>:<a href="{{ .URL }}">{{ .Title }}</a></div>
+    <nav class="navbar headerMenu hidden-xs">
+      <div class="headerMenu__items">
+        {{ if .Site.Params.menu }}
+        <ul>
+          {{ range $menuItem := .Site.Params.menu }}
+            <li><a href="{{ index $menuItem 0 }}" class="button">{{ index $menuItem 1 }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </nav>
+  </header>
+  <div class="content">
